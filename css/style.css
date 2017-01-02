@@ -1,0 +1,42 @@
+body, html {
+	font-family: helvetica;
+	width:100%;
+	height:100vh;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	box-sizing: border-box;
+	white-space: nowrap; 
+}
+
+html {
+	overflow-x: hidden;
+}
+
+h1 {
+	text-align: left;
+	font-size: 5vw;
+}
+
+
+#svg_map {
+	/*transform: scale(.20);*/
+    /*transform-origin: top left;*/
+    height: calc(100%);
+    margin: 0 auto;
+    padding: 0 ;
+
+}
+
+#svg_map {
+	/*background-color:black; */
+}
+
+#map_container {
+	width:100%;
+	margin: 0;
+    padding: 0;
+    overflow-y: none;
+    overflow-x: hidden;
+}
+
+
